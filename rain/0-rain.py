@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+"""Prototype: def rain(walls)
+walls is a list of non-negative integers.
+Return: Integer indicating total amount of rainwater retained.
+Assume that the ends of the list are
+not walls, meaning they will not retain water.
+If the list is empty return 0."""
 def rain(walls):
     if len(walls) < 3:
         return 0
